@@ -8,7 +8,7 @@ import Controls from '../controls/Controls'
 
 afterEach(cleanup)
 
-describe('<Dashboard />', () => {
+describe('<Dashboard/>', () => {
   it('matches snapshort', () => {
     const tree = renderer.create(<Dashboard/>)
     expect(tree.toJSON()).toMatchSnapshot()
